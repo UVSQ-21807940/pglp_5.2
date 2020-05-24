@@ -57,6 +57,10 @@
 						</reports>
 					</reportSet>
 				</reportSets>
+				< configuration >
+					< configLocation > $ {basedir} /checkstyle.xml</ configLocation >
+					< suppressionsLocation > $ {basedir} /checkstyle-suppressions.xml</ suppressionsLocation >
+				</ configuration >
 			</plugin>
 			<plugin>
 				<groupId>com.github.spotbugs</groupId>
